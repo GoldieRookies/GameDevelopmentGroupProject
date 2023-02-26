@@ -320,6 +320,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/EnemyFollowScript.cs"
 "Assets/EnemySpawner.cs"
+"Assets/gunProjectileScript.cs"
 "Assets/Playerhealth.cs"
 "Assets/player_Movement.cs"
 -langversion:8.0

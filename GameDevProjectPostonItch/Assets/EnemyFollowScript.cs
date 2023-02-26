@@ -7,7 +7,7 @@ public class EnemyFollowScript : MonoBehaviour
 {
     public GameObject player;
     public float speed;
-    public float attackDamage;
+    
     // Start is called before the first frame update
     void Start()
     {

@@ -127,3 +127,107 @@ System memory in use after: 232.7 MB.
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3133.
 Total: 2.211375 ms (FindLiveObjects: 0.202000 ms CreateObjectMapping: 0.056000 ms MarkObjects: 1.896417 ms  DeleteObjects: 0.055875 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001343 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.991 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2663 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 232.7 MB.
+System memory in use after: 232.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3136.
+Total: 2.646958 ms (FindLiveObjects: 0.687500 ms CreateObjectMapping: 0.052792 ms MarkObjects: 1.666375 ms  DeleteObjects: 0.239375 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 287.056554 seconds.
+  path: Assets/Enemy.prefab
+  artifactKey: Guid(5a42f9f47a1264db7bd623454cf94f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy.prefab using Guid(5a42f9f47a1264db7bd623454cf94f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c579ec8c7c72b4ef43181ee35485b7') in 0.189339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 157.120560 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(cb7803c4c1d39422daed3d51aff7490f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(cb7803c4c1d39422daed3d51aff7490f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f7efb42d30dcc5dc8177090e886938') in 0.209891 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001469 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.932 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2664 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 237.4 MB.
+System memory in use after: 237.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3174.
+Total: 2.689917 ms (FindLiveObjects: 0.300292 ms CreateObjectMapping: 0.056833 ms MarkObjects: 2.155625 ms  DeleteObjects: 0.176250 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002119 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.033 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2664 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 237.6 MB.
+System memory in use after: 237.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3177.
+Total: 2.721417 ms (FindLiveObjects: 0.423750 ms CreateObjectMapping: 0.067708 ms MarkObjects: 2.158375 ms  DeleteObjects: 0.070291 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1506.509393 seconds.
+  path: Assets/EnemySpawner.cs
+  artifactKey: Guid(463148494ea5b49d68763d5e60c747a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySpawner.cs using Guid(463148494ea5b49d68763d5e60c747a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12ce7342a7dba19fdeffcede9bc0de1') in 0.362728 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002138 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.951 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2664 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 242.1 MB.
+System memory in use after: 242.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3180.
+Total: 1.628042 ms (FindLiveObjects: 0.302041 ms CreateObjectMapping: 0.056250 ms MarkObjects: 1.223375 ms  DeleteObjects: 0.045625 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4631.029869 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(cb7803c4c1d39422daed3d51aff7490f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(cb7803c4c1d39422daed3d51aff7490f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e79ac1c9878c3dd7f3a554911a41831') in 0.351253 seconds 
