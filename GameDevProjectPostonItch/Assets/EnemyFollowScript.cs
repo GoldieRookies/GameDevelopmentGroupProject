@@ -7,6 +7,7 @@ public class EnemyFollowScript : MonoBehaviour
 {
     public GameObject player;
     public float speed;
+    public float attackDamage;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +17,8 @@ public class EnemyFollowScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         transform.position = Vector3.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
     }
+
 }

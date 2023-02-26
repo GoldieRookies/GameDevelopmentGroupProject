@@ -15,11 +15,19 @@ public class Playerhealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        checkIfDead();
     }
     void checkIfDead() {
         if(health <= 0) {
             Destroy(gameObject);
         }
+    }
+    private void OnCollisionEnter(Collision other) {
+        if(other.gameObject.tag == "Enemy") {
+            takeDamage(1);
+        }
+    }
+    public void takeDamage(float damage) {
+        health -= damage;
     }
 }
