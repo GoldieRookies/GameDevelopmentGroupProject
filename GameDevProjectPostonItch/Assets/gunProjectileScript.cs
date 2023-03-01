@@ -5,6 +5,8 @@ using UnityEngine;
 public class gunProjectileScript : MonoBehaviour
 {
     public GameObject bullet;
+    public float bulletSpeed;
+    public GameObject emptyWhereGunWillSpawn;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +18,11 @@ public class gunProjectileScript : MonoBehaviour
     {
         
     }
+    Rigidbody rigidbodyBulletComponent;
+    GameObject instantiatedBullet;
     void launchProjectile() {
-        Instantiate(bullet);
+        instantiatedBullet = Instantiate(bullet, emptyWhereGunWillSpawn.transform.position, emptyWhereGunWillSpawn.transform.rotation);
+        rigidbodyBulletComponent = instantiatedBullet.GetComponent<Rigidbody>();
+        rigidbodyBulletComponent.AddForce(transform.forward * bulletSpeed);
     }
 }
