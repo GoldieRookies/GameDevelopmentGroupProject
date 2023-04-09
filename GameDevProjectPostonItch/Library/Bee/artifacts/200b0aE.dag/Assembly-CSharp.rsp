@@ -321,8 +321,10 @@
 "Assets/EnemyFollowScript.cs"
 "Assets/EnemySpawner.cs"
 "Assets/gunProjectileScript.cs"
+"Assets/PlayergunScript.cs"
 "Assets/Playerhealth.cs"
 "Assets/player_Movement.cs"
+"Assets/teleportScript.cs"
 -langversion:8.0
 
 /deterministic
