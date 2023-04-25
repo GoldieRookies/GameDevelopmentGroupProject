@@ -26,7 +26,12 @@ public class Playerhealth : MonoBehaviour
         if(other.gameObject.tag == "Enemy") {
             takeDamage(1);
         }
+        if(other.gameObject.tag == "EnemyBullet") {
+            takeDamage(1);
+        }
     }
+
+
     public void takeDamage(float damage) {
         health -= damage;
     }

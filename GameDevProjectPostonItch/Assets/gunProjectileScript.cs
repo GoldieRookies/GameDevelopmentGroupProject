@@ -12,17 +12,20 @@ public class gunProjectileScript : MonoBehaviour
     {
         InvokeRepeating("launchProjectile", 1.0f, 1.0f);
     }
-
+    Rigidbody rigidbodyBulletComponent;
+    GameObject instantiatedBullet;
     // Update is called once per frame
     void Update()
     {
         
     }
-    Rigidbody rigidbodyBulletComponent;
-    GameObject instantiatedBullet;
+
+    
+
     void launchProjectile() {
         instantiatedBullet = Instantiate(bullet, emptyWhereGunWillSpawn.transform.position, emptyWhereGunWillSpawn.transform.rotation);
         rigidbodyBulletComponent = instantiatedBullet.GetComponent<Rigidbody>();
+        rigidbodyBulletComponent.tag = "EnemyBullet";
         rigidbodyBulletComponent.AddForce(transform.forward * bulletSpeed);
     }
 }

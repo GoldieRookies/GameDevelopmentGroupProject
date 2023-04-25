@@ -22,6 +22,7 @@ public class PlayergunScript : MonoBehaviour
             
             instantiatedBullet = Instantiate(bullet, gunShotGo.transform.position, gunShotGo.transform.rotation);
             rigidBullet =  instantiatedBullet.GetComponent<Rigidbody>();
+            rigidBullet.tag = "PlayerBullet";
             rigidBullet.AddForce(transform.forward * bulletSpeed);
         } 
     }
